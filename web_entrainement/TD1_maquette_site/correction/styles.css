@@ -1,0 +1,117 @@
+body{
+	margin : 0;
+	font-family: 'Open Sans', sans-serif;
+}
+
+#main{
+	width: 900px;
+	margin: 0 auto;
+	box-shadow: 0 9px 0px 0px white, 0 -9px 0px 0px white, 12px 50px 15px -4px rgba(0, 0, 0, 0.1), -12px 50px 15px -4px rgba(0, 0, 0, 0.1);
+}
+/*Permet de positionner logo en absolue par rapport a header*/
+header{
+	position: relative;
+}
+
+#logo{
+	display: block;
+	position: absolute;
+	top: 100px;
+	right: 20px;
+}
+
+section h2{
+    color: #ea1726;
+    font-family: 'Pacifico', cursive;
+    font-size: 24px;
+    margin: 20px 0;
+    text-align: center;
+}
+
+section h3{
+	color: #676767;
+	font-size: 18px;
+	text-align: center;
+}
+
+section ul{
+	list-style-type: none;
+	padding: 0;
+	margin:0;
+	text-align: center;
+	color: #676767;
+}
+
+nav{
+	margin: 50px 0;
+}
+
+nav ul{
+	width: 755px;
+	margin: 0 auto;
+}
+
+nav ul li{
+	display: inline-block;
+	width: 150px;
+	height: 150px;
+	transition: 2s ease-in-out;
+}
+
+nav ul li:hover{
+	transform: rotate(360deg);
+}
+
+nav ul li#ateliers{
+	margin-left: 50px;
+	background-color: #c01f27;
+
+}
+
+nav ul li#calendrier{
+	margin-left: 50px;
+	background-color: #449d9e;
+}
+
+nav ul li#infos{
+	margin-left: 50px;
+	background-color: #dfa21f;
+}
+
+nav ul li a{
+	display: table-cell;
+	width: 150px;
+	height: 150px;
+	font-family: 'Pacifico', cursive;
+	font-size: 28px;
+	color: white;
+	text-decoration: none;
+	text-align: center;
+	line-height: 35px;
+	vertical-align: middle;
+}
+
+footer{
+	background-color: black;
+	height: 55px;
+}
+
+footer #footer-left{
+	width: 200px;
+	float: left;
+	margin-top: 20px;
+	padding-left: 5px;
+}
+
+footer #footer-right{
+	width: 400px;
+	float: right;
+	color: white;
+	margin-top: 20px;
+	text-align: right;
+	padding-right: 5px;
+}
+
+footer #footer-left a{
+	color: white;
+}

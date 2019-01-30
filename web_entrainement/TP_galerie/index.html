@@ -1,0 +1,51 @@
+<!doctype html>
+<html>
+
+	<head>
+		<meta charset= "UTF-8"/>
+		<title>galerie</title>
+		<meta name="author" content="Boucquemont Lucie">
+		<link rel="stylesheet" type="text/css" href="css.css">
+		<script type="text/javascript" src="js/jquery-1.11.3.js"></script>
+		<script type="text/javascript" src="js/javascript.js"></script>
+	<head>
+	
+	<body>
+	
+	
+	
+	
+		<ul id="liste">
+			<li><img src="image/Penguins.jpg"></li>
+			<li><img src="image/Chrysanthemum.jpg"></li>
+			<li><img src="image/Desert.jpg"></li>
+			<li><img src="image/Hydrangeas.jpg"></li>
+			<li><img src="image/Jellyfish.jpg"></li>
+			<li><img src="image/Koala.jpg"></li>
+			<li><img src="image/Lighthouse.jpg"></li>
+			<li><img src="image/Tulips.jpg"></li>
+		</ul>
+	
+		
+		<a class="gauche"><img src="image/arrow_left.png"></a>
+		<a class="droite"><img src="image/arrow_right.png"></a>
+		
+		
+	</body>
+	
+</html>
+
+
+<!--stratégie: html: ul li et img, superposer les images 
+	les unes au dessus des autres, on va affiché la suivante et cacher la précédente
+	Pour cela : li en position absolute, taille=taille du diaporama, conteneur en position relative
+	deux méthodes: hide() qui cache(fadeout) et show() qui affiche(fadein)
+	selectionner le premier élémnet de la liste et l'afficher :ul li.first()display none sur tous les élément
+	celui d'après : next()  (rajout d'une classe active
+	revenir en arrière: prev()
+	
+	addClass() ajout dynamiquement une classe
+	removeClass() supprime dynamiquement une classe
+	.length compte le nb d'élément ds la liste
+	-->
+		

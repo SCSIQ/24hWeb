@@ -1,0 +1,345 @@
+.main{
+	height:100%;
+	width:1024px;
+	margin: 0 auto;
+	box-shadow: 1px 1px 12px #555;
+    font-family: Verdana, Geneva, sans-serif;
+    line-height: 1.5;
+    font-size: 87.5%;
+}
+
+/*header, position des logo*/
+header{
+	position: relative;
+	
+}
+header #bande{
+	width:1024px;
+	
+}
+
+/*--------------------------------------------------------------------------------*/
+/*--------------------------------------------------------------------------------*/
+/*positionnement des logo*/
+#logo{
+    position:relative;
+	float:left;
+    margin-left:50px;
+}
+
+#bulle{
+    position: relative;
+    z-index: 3;
+	top:-10px;
+	height:80px;
+	float:left;
+}
+
+#anglais{
+	float:right;
+	margin-right:150px;
+    z-index: 1;
+    width:20px;
+}
+
+#francais{
+	float:right;
+	margin-right:10px;
+    z-index: 1;
+    width:20px;
+}
+#facebook{
+	float:right;
+	margin-right:3%;
+    z-index: 1;
+}
+
+#global{
+	margin-right:50px;
+	height:50px;
+	float:right;
+    z-index: 1;
+}
+
+/*--------------------------------------------------------------------------------*/
+/*--------------------------------------------------------------------------------*/
+/*menu*/
+nav ul{
+	position:relative;
+	display: inline-block;
+    float:right;
+    z-index:3; //censer faire passer par dessus
+}
+
+nav ul li {
+	display:table-cell;
+	list-style-type: none;         //pour enlever le soulignement
+	text-decoration: none;
+	color:white;	
+	text-align:center;
+	vertical-align: middle;
+	font-size:0.75em;
+    
+}
+
+.greet{
+	
+	background-color:#47155d;
+	color:white;
+    list-style-type: none;
+	text-decoration: none;
+    margin-right:5%;
+	transform: rotate(7deg); //censer faire une rotation, sans effet...
+	}
+
+.devenir{
+    list-style-type: none;
+	text-decoration: none;
+    background-color:#C71585;
+	color:white;
+    margin-right:5%;
+	transform: rotate(-7deg); 
+	}
+
+.rencontrer{
+    list-style-type: none;
+	text-decoration: none;
+	background-color:#47155d;
+	color:white;
+	margin-right:5%;
+	transform: rotate(7deg); 
+}
+
+.raconter{
+    list-style-type: none;
+	text-decoration: none;
+	background-color:#C71585;
+	color:white;
+    margin-right:5%;
+	transform: rotate(-7deg); 
+}
+
+
+nav ul  li a {
+    position: relative;
+    float: right;
+	margin: 0 auto;
+}
+
+/*----------------------------------------------------------------------------------*/
+/*----------------------------------------------------------------------------------*/
+/*bande avec la photo de tonneau*/
+section #tonneau{
+    position:relative;
+	width:1024px;
+    z-index:1;
+    top:-310px; /*faire remonter la photo du tonneau*/
+    
+}
+
+
+/*----------------------------------------------------------------------------------*/
+/*----------------------------------------------------------------------------------*/
+/*navigation du menu déroulant*/
+
+#navigation{
+	position:relative;
+	background-color: rgba(255, 255, 255,0.5); /* le r:255, g:255..*/
+    /*opacity: 0.4;
+    filter: alpha(opacity=40);*/
+    float: right;  	
+    z-index:2;
+    width:170px;
+    height:310px;
+    margin-right:150px;
+    top:10px;
+    z-index:3;
+}
+
+#navigation #flechehaut{
+    margin-left:45%;
+    cursor: pointer;
+}
+
+#navigation #flechebas{
+    margin-left:43%;
+    cursor: pointer; /*simule un lien*/
+}
+
+#navigation #photo1{
+    margin-left:13%;
+    height: 85px;
+
+}
+
+#navigation #photo2{
+     margin-left:13%;
+     height: 85px;
+}
+
+#navigation #photo3{
+     margin-left:13%;
+     height: 85px;
+}
+
+/*--------------------------------------------------------------------------------*/
+/*--------------------------------------------------------------------------------*/
+/*section articles*/
+section{
+	clear:both;
+	clear:top;
+}
+section .articles {
+	top:-300px;
+    font-family:Verdana;
+	position:relative;
+	list-style-type: none;
+	text-decoration: none;
+
+	font-size: 0.5em;
+    vertical-align: top;
+    
+}
+
+section .articles div { 
+    margin-left: 10px;
+    width:300px;
+    height:320px;
+    text-align:center;
+	float:left;
+}
+
+/*article beaune*/
+section .articles .block_beaune{
+	margin-left:40px;
+    background-color:#47155d;
+    color:white;
+    display:inline-block; 
+    background-image:url("dessing.png"); /*background-size, background-repeat, */
+    background-size:contain;            /*  background-position pour positionner l'image en arrière plan*/
+    background-repeat: no-repeat;
+    background-position: bottom;
+    padding-top:-10px;
+    
+}
+
+/*article nuit*/
+section .articles .nuit{
+    background-color:#C71585;
+    color:white;
+    display:inline-block; 
+    background-size:contain;
+}
+
+
+/*acticle sur actualité*/
+section .articles .actualite{
+    background-color:#dedb00;
+    color:white;
+    background-image:url("dessind.png");
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    display:inline-block;
+}
+
+/*"En savoir plus" position, couleur,..*/
+section .articles p {
+    list-style-type: none;
+	text-decoration: none;
+    font-size:1.7em;
+    color:black;
+    background-color:white;
+    width:30%;
+    float:right;
+    margin-right:20px;
+    margin-bottom: 55px;
+   
+
+}
+
+/*--------------------------------------------------------------------------------*/
+/*--------------------------------------------------------------------------------*/
+/*séparation*/
+
+#bs{
+    
+    width:1000px;
+
+}
+
+/*--------------------------------------------------------------------------------*/
+/*--------------------------------------------------------------------------------*/
+/*footer*/
+ 
+
+/*bandeau vert*/
+footer #informations{
+	
+	list-style-type: none;
+	text-decoration: none;
+	color:white !important;	
+	margin:auto;
+    margin-top:10%;
+    height: 30px;
+	width:70%;
+	background-color:#dedb00;
+    text-align:center;
+    
+}
+
+footer #informations a{   
+    color:white;    
+}
+
+/*positionnment des images*/
+footer #imagebas{ 
+    display:inline-block;
+
+}
+
+footer #imagebas #cgt{
+    max-width: 10%;
+    height:auto;
+    margin-left:5%;
+    margin-right:5%;
+    margin-bottom:1%;
+}
+
+
+footer #imagebas #beaune{
+    max-width: 10%;
+    height:auto;
+    margin-right:5%;
+    margin-bottom:1%;
+}
+
+footer #imagebas #nuit{
+    max-width: 10%;
+    height:auto;
+    margin-right:5%;
+    margin-bottom:1%;
+}
+
+footer #imagebas #dijon{
+    max-width: 10%;
+    height:auto;
+    margin-right:5%;
+    margin-bottom:1%;
+}
+
+footer #imagebas #unesco{
+    max-width: 30%;
+    height:auto;
+    margin-bottom:1%;
+    
+}
+	
+
+
+
+
+
+
+
+

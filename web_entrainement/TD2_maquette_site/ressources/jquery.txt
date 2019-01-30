@@ -1,0 +1,35 @@
+
+
+
+function debounce(func, wait) {
+    var timeout;
+    return function() {
+        var context = this, 
+            args = arguments,
+            later = function() {
+                timeout = null;
+                func.apply(context, args);
+            };
+        clearTimeout(timeout);
+        timeout = setTimeout(later, wait);
+    };
+}
+
+
+jQuery(document).ready(function(){
+      var slide_contener = jQuery('#slides_contener');
+      var offset = slide_contener.width();
+
+      jQuery('.arrow_bottom').on('click', function(){
+          var oldpos = slide_contener.scrollTop();
+          slide_contener.stop(true,false).animate({scrollTop: oldpos+offset}, 800);
+      });
+
+      jQuery('.arrow_top').on('click', function(){
+          var oldpos = slide_contener.scrollTop();
+          slide_contener.stop(true,false).animate({scrollTop: oldpos-offset}, 800);
+      }); 
+
+}); 
+
+  

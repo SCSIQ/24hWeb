@@ -1,0 +1,9 @@
+Pour les titres
+
+http://www.google.com/fonts#QuickUsePlace:quickUse/Family:Bad+Script
+ou ça 
+http://www.google.com/fonts#QuickUsePlace:quickUse/Family:Bad+Script|Zeyada|Over+the+Rainbow
+ou ça plus épais
+http://www.google.com/fonts#QuickUsePlace:quickUse/Family:Bad+Script|Zeyada|Over+the+Rainbow|Nothing+You+Could+Do 
+
+Pour les textes Verdana

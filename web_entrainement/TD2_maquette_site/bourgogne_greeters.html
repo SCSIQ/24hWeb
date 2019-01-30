@@ -1,0 +1,157 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset= "UTF-8"/>
+		<link rel="stylesheet" type="text/css" href="bourgogne.css">
+        <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script> 
+	</head>
+	<body>
+        
+        
+        <script>
+            
+            function debounce(func, wait) {
+                var timeout;
+                return function() {
+                    var context = this, 
+                        args = arguments,
+                        later = function() {
+                            timeout = null;
+                            func.apply(context, args);
+                        };
+                    clearTimeout(timeout);
+                    timeout = setTimeout(later, wait);
+                };
+            }
+
+
+            jQuery(document).ready(function(){
+                  var slide_contener = jQuery('#navigation');
+                  var offset = slide_contener.width();
+                    
+            //quand on clique sur la flèche, fait un scroll
+                  jQuery('#flechebas').on('click', function(){
+                      var oldpos = slide_contener.scrollTop();
+                      slide_contener.stop(true,false).animate({scrollTop: oldpos+offset}, 800);
+                  });
+
+                  jQuery('#flechebas').on('click', function(){
+                      var oldpos = slide_contener.scrollTop();
+                      slide_contener.stop(true,false).animate({scrollTop: oldpos-offset}, 800);
+                  }); 
+
+            });
+            if (('flechebas').on('click')){
+			
+				function();
+			}
+            
+            
+        </script>
+        
+        
+        
+        
+        
+        
+		<div class="main">
+			
+			<header>
+			
+				<img id="bande" src="bande.png" alt="none">
+				<a href="bourgogne_greeters.html" class="logo"><img id="logo" src="logo.png" alt="none"></a>
+				<img id="bulle" src="bulle.png" alt="none">
+				<img id="anglais" src="anglais.png" alt="none">
+				<img id="francais" src="fr.png" alt="none">	
+				<img id="facebook" src="facebook.png" alt="none">	
+				<img id="global" src="global.png" alt="none">
+				
+			</header>
+			
+			<!--menu-->
+			<nav>
+				<ul>
+					<li><a href="" class="greet">LES GREETERS ?</a></li>
+					<li><a href=""class="devenir">DEVENIR GREETER</a></li>
+					<li><a href=""class="rencontrer">RENCONTRER UN GREETER</a></li>
+					<li><a href=""class="raconter">RACONTER SA RENCONTRE</a></li>
+				</ul>
+			</nav>
+			
+			<section>
+                
+				<!--bloc qui contient le menu déroulant et le bandeau avec le tonneau-->
+			
+                    
+                    <!-- menu image qui se déroule-->
+                    <div id="navigation">
+                        
+                            <img id="flechehaut" src="flechehaut.png" alt="none">
+                            <img id="photo1" src="photo1.png" alt="none">
+                            <img id="photo2" src="photo2.png" alt="none">
+                            <img id="photo3" src="photo3.png" alt="none">
+                            <img id="flechebas" src="flechebas.png" alt="none">	    
+                       
+                    </div>	
+                
+                
+                    <img id="tonneau" src="tonneau.png" alt="none">
+
+				
+
+                
+                
+                
+                
+                    <!--les blocs articles-->
+					<div class="articles">
+                        
+						<div class="block_beaune">	
+							<h1>LES GREETERS DU PAYS BEAUNOIS</h1> 
+							<h2>sont à l'image du territoire : différents selon qu'ils habitent à Beaune même ou dans les villages des alentours, selon qu'ils sont issus du monde agricole, viticole, ou d'autres métiers :</h2>
+							<img id="photog" src="photog.png" alt="none">
+							<a href=""><p>En savoir +<p></a>
+						</div>
+						
+						<div class="nuit">	
+							<h1>LES GREETERS DE LA COTE DE NUITS ET DE DIJON</h1> 
+							<h2>Différents selon qu'ils habitent à Beaune même ou dans les villages authentiques des alentours, selon qu'ils sont issus du monde agricole, viticole, ou d'autres métiers : enseignants, sages-femmes, experts en technologies de communication, mères de famille ou même anciens élus locaux...</h2>
+							<img id="photom1" src="photom1.png" alt="none">
+							<img id="photom2" src="photom2.png" alt="none">
+							<a href=""><p>En savoir +<p></a>
+						</div>
+                        
+						<div class="actualite">	
+							<h1>ACTUALITÉS</h1>
+							<h2>Différents selon qu'ils habitent à Beaune même ou dans les villages des alentours, selon qu'ils sont issus du monde agricole, viticole, ou d'autres métiers : </h2>
+							<img id="photod" src="photod.png" alt="none">
+							<a href=""><p>En savoir +<p></a>
+						</div>
+                        
+					</div>
+			</section>
+			
+            
+            <img id="bs" src="bande-separative.jpg" alt="none">
+            
+            <!-- footer aves les images du bas -->
+			<footer>
+				<div id="informations">
+					<a href="">Qui sommes-nous</a> |  <a href="">Contactez-nous</a> |  <a href="">Newsletter</a>  | <a href=""> Glossaire</a>  |  <a href="">Plan du site</a>  | <a href=""> Mentions légales</a>
+				</div>
+				
+                <div id="imagebas">
+                    <img id="cgt" src="cgt.png" alt="none">
+                    <img id="beaune" src="beaune.png" alt="none">
+                    <img id="nuit" src="nuit.png" alt="none">
+                    <img id="dijon" src="dijon.png" alt="none">
+                    <img id="unesco" src="unesco.png" alt="none">
+                </div>   
+                    
+                    
+			</footer>
+	
+	
+		</div>
+	</body>
+</html>

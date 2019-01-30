@@ -1,0 +1,117 @@
+html{
+	height:100%;
+}
+body{
+	font-family: Verdana, Geneva, sans-serif;
+	margin-left:5%;
+	margin-right:5%;
+	width:90%;
+	position:relative;
+ }
+ 
+ /*************************************************************HEADER**********/
+ ul{
+	list-style:none;
+	
+ }
+ 
+a{
+	text-decoration:none;
+	color:black;
+	float:left;
+	margin-right:15px;
+	margin-top:10px;
+	padding:10px;
+ }
+ 
+ #logoH{
+	float:right;
+	margin-right:100px;
+	margin-top:-15px;
+ }
+ 
+ #intro,h1{
+	text-align:center;	
+	color:white;
+ }
+ 
+.listeImg{
+	height : 50%;
+	width:100%;
+	overflow:hidden; /*ROGNE IMAGE*/
+}
+
+ #intro{
+	margin-top:-150px;
+ }
+ 
+ h1{
+	margin-bottom:100px;
+ }
+ 
+/*************************************************************BLOC 1**********/
+  
+.vignette{
+	float:left;
+	margin-right : 20px;
+	margin-bottom: 40px;
+}
+
+.blocB{
+	margin-left:12%;
+}
+
+/*************************************************************BLOC 2**********/  
+.blocCategories
+{
+	margin-left:40px;
+	height : 50%;
+	width:100%;
+	overflow:hidden; /*ROGNE IMAGE*/
+}
+
+/*************************************************************BLOC 3**********/ 
+.textLevi{
+	width:45%;
+	margin-left:180px;
+	margin-top:-20px;
+}
+#grosJ{
+	float:right;
+	margin-top:-500px;
+	margin-right:200px;
+	height:400px;
+}
+.imgLevi{
+	height : 350px;
+}
+
+.etiquette{
+	margin-top:40px;
+	float:left;
+	margin-right: 20px;
+	margin-bottom:40px;
+}
+.bloc1{
+	margin-left:180px;
+}
+
+ /*************************************************************FOOTER**********/
+ footer{
+	position:absolute; /*positionne en bas de page*/
+	background-color:#1b2330;
+	width:90%;
+	margin-left:50px;
+	bottom:0;
+	padding:20px;
+ }
+ #zebra{
+	margin-left:100px;
+	margin-top:5px;
+ }
+ #social{
+	float:right;
+	margin-right:100px;
+	
+ }
+  

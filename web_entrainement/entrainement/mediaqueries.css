@@ -1,0 +1,60 @@
+ /*taille de base de chaque blocs*/
+ .vignette{
+	width: 25%;
+	height: 150px;
+	float:left;
+	color:white;
+	font-size:24px;
+	font-family:"Goudy Bookletter 1911", sans-serif;
+ }
+ 
+ /*Définition de la couleur des blocs*/
+ .blocR{
+	background-color:#CD0000;
+ }
+ 
+ .blocV{
+	background-color:#2E8B57;
+ }
+ 
+ .blocB{
+	background-color:#87CEEB;	
+ }
+ 
+ .blocJ{
+	background-color:#EEC900;
+ }
+ 
+ /*Grand écran*/
+@media (min-width: 1200px){
+ 
+}
+ 
+ /*ordinateur tablette et moyen ordinateurs*/
+@media (min-width: 992px) and (max-witdh: 1199px){
+	.vignette{
+		width:50%;
+	}
+}
+ 
+ /*tablette et petit ordi*/
+@media (min-width: 768px) and (max-width: 991px){
+	.vignette{
+		width:50%;
+	}
+}
+ 
+ /*portable*/
+@media (max-width: 767px){
+	.vignette{
+		width:100%;
+	}
+}
+ 
+  /*petits portable*/
+ @media (max-width: 480px){
+	.vignette{
+		width:100%;
+	}
+ }
+ 

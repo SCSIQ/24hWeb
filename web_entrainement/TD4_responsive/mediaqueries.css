@@ -1,0 +1,56 @@
+.vignette{
+	width: 25%;
+	height: 150px;
+	float: left;
+	color: white;
+	font-size: 24px;
+}
+
+.rouge{
+	background-color: red;
+}
+
+.vert{
+	background-color: green;
+}
+.bleu{
+	background-color: blue;
+}
+.noir{
+	background-color: black;
+}
+
+/* Large desktops and laptops */
+@media (min-width: 1200px) {
+	
+}
+
+/* Landscape tablets and medium desktops */
+@media (min-width: 992px) and (max-width: 1199px) {
+	.vignette{
+		width: 50%;	
+	}
+}
+
+/* Portrait tablets and small desktops */
+@media (min-width: 768px) and (max-width: 991px) {
+	.vignette{
+		width: 50%;	
+	}
+}
+
+
+/* Landscape phones and portrait tablets */
+@media (max-width: 767px) {
+	.vignette{
+		width: 100%;	
+	}
+
+}
+
+/* Portrait phones and smaller */
+@media (max-width: 480px) {
+	.vignette{
+		width: 100%;	
+	}
+}
