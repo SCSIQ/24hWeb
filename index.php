@@ -12,7 +12,7 @@
 
     <?php
     // ajouter le fichier php ou html a appeler
-    //require '';
+    require 'web_entrainement/formulaire/form.html';
     ?>
     
 </body>
