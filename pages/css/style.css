@@ -16,3 +16,27 @@ a
 	color:black;
 }
  
+header
+{
+height :100px;
+	background-color:#F4F6F5;
+} 
+ 
+footer{
+	position:absolute;
+	bottom:0;
+	width:100%;
+}
+
+#mentionsL
+{
+	font-size:0.8em;
+	float:right;
+	margin-right:140px;
+	margin-bottom:10px;
+}
+
+#mentionsL:hover
+{
+	font-weight:bold;
+}

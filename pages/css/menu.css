@@ -1,13 +1,15 @@
 /*bloc du menu*/
 .menu, .menu ul
 {
-	padding:10px;
-	margin-right:70px;
+	padding:10px;	
+	background-color:#F4F6F5;
 }
 
 .menu{
-	text-align:left;
+	text-align:right;
 	float:right;
+	width:100%;
+	position:relative;
 }
 
 .menu li{
@@ -30,7 +32,7 @@
 
 .menu li:hover ul{
 	left:auto;
-	margin-top:5px;
+	margin-top:9px;
 	margin-left:-20px;
 }
 
