@@ -12,7 +12,7 @@
 
     <?php
     // ajouter le fichier php ou html a appeler
-    require 'php/accueil.php';
+    require 'pages/accueil.html';
     ?>
     
 </body>
