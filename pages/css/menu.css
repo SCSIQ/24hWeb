@@ -1,0 +1,41 @@
+/*bloc du menu*/
+.menu, .menu ul
+{
+	padding:10px;
+	margin-right:70px;
+}
+
+.menu{
+	text-align:left;
+	float:right;
+}
+
+.menu li{
+	display:inline-block;
+	margin-right:50px;
+	padding:10px;
+}
+
+.menu ul li{
+	display:inherit;
+	float:center;
+}
+
+.menu ul{
+	position:absolute;
+	left:-999em;
+	text-align:left;
+	z-index:1000;
+}
+
+.menu li:hover ul{
+	left:auto;
+	margin-top:15px;
+	margin-left:-20px;
+}
+
+.menu li:hover{
+	background-color:#C0C0C0;
+	font-weight:bold;
+	border-radius:10px;
+}

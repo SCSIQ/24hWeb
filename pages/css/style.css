@@ -1,0 +1,18 @@
+body
+{
+	font-family:"Lucida Sans Unicode","Lucida Grande", sans-serif;
+	height:100%;
+	width:100%;
+}
+ 
+ul 
+{
+	list-style:none;
+}
+ 
+a
+{
+	text-decoration:none;
+	color:black;
+}
+ 
