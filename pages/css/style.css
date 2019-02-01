@@ -16,6 +16,12 @@ a
 	color:black;
 }
  
+header
+{
+height :100px;
+	background-color:#F4F6F5;
+} 
+ 
 footer{
 	position:absolute;
 	bottom:0;
